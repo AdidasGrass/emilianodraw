@@ -52,6 +52,29 @@
 	a:link {
 			text-decoration: none;
 		}
+<<<<<<< HEAD:style.css
+=======
+	</style>
+</head>
+<body>
+	<header>
+	<h1>Home</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="locations.html">Locations</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		</nav>
+	</header>
+	 <section>
+		 <div>a</div>
+		 <div>b</div>
+		 <div>c</div>
+	</section>
+	 <section>ABOUT</section>
+	 <footer>CONTACT</footer>
+>>>>>>> 52e99f1a9f92534dd96047366eb457b4468960e7:index.html
 
     a:hover {
   color: grey;
