@@ -1,9 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-	<style>
+@charset "UTF-8";
+/* CSS Document */
 		body {
 	background: #4F4F4F;
 		color:#E8E8E8;
@@ -15,6 +11,7 @@
 			font-size: 40px;
 			background-color: black;
 			padding: 20px;
+			
 
 			
 		}
@@ -33,7 +30,7 @@
  
 		}
 		div {
-			background-color: red;
+			background-color: pink;
 			margin: auto;
 			width: 100px
 		}
@@ -41,34 +38,39 @@
 			margin: 0;
 			padding: 0;
 			list-style-type: none;
-		}
+					}
 		li {
 			display: inline;
 			margin-left: 30px;
+			font-size: 30px;
 		}
+
+		a {
+			color:aliceblue;
+			}
+
+	a:link {
+			text-decoration: none;
+		}
+
+    a:hover {
+  color: grey;
+        }
+
+li:first-child {
+	margin-left: 2px;
+}
 		h1{
 	font-size: 60px;	
-		}
-	</style>
-</head>
-<body>
-	<header>
-	<h1>Andreas Color</h1>
-	<nav>
-		<ul>
-			<li>Home</li> 
-			<li>Locations</li>
-			<li>Contacts</li>
-		</ul>
-		</nav>
-	</header>
-	 <section>
-		 <div>a</div>
-		 <div>b</div>
-		 <div>c</div>
-	</section>
-	 <section>ABOUT</section>
-	 <footer>CONTACT</footer>
-
-</body>
-</html>
+		}	
+header .logo a {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: 80px;
+	display: inline-block;
+	text-indent: -9999999px;
+	position:relative;
+	height: 80px;
+	top: -34px;
+	width: 60px;	
+}
